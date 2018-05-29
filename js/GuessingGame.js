@@ -29,10 +29,10 @@ Game.prototype.isLower = function() {
         return "";
     }    
     else if (this.playersGuess < this.winningNumber) {
-        return "It's higher!";
+        return "Guess higher!";
     }
     else if (this.playersGuess > this.winningNumber) {
-        return "It's lower!";
+        return "Guess lower!";
     }
 }
 
