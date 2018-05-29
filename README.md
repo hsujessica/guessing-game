@@ -14,6 +14,6 @@
 - CSS
 
 ## View Demo
-View demo at [https://hsujessica.github.com/guessing-game]
+View demo [here](https://hsujessica.github.com/guessing-game)
 
 ![screenshot](screenshot.png)
