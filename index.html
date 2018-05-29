@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Codystar:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+  <body>
+
+      <div id='app'>
+
+        <div id='app-left'>
+          
+          <div id='header'>
+            <h1>Guessing Game</h1>
+            <h2>I'm thinking of a number between 1 and 100...</h2>
+          </div>
+
+          <div id='main' class='center'>
+            <div id='input-parent'>
+              Is it ...
+              <input type='number' id='number-input' class='center' autofocus>  ?
+              <button type='submit' id='submit' class='btn-left'>ask</button>
+              <p id='guess-check-message'></p>
+            </div>
+          </div>
+
+        </div>  
+
+        <div id='app-right' class='center'>
+
+          <div id='guesses'>
+            <p>It's not...</p>
+            <ul id='past-guesses' class='ul-primary'>
+            </ul>
+          </div>
+
+          <div>
+            <div id='menu-btns'>
+              <button type='button' id='reset' class='btn-right'>reset</button>
+              <button type='button' id='hint' class='btn-right'>hint</button>
+            </div>
+
+            <div id='footer'>
+                <div>
+                    <p>made by <a href="https://github.com/hsujessica">JESSICA HSU</a></p>
+                </div>
+            </div>
+            
+          </div>
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="js/GuessingGame.js"></script>
+
+  </body>
+</html>
